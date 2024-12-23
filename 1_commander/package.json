@@ -1,0 +1,26 @@
+{
+  "name": "word_count_commander",
+  "version": "1.0.0",
+  "description": "this project utilises commander package to count no of words from given file path",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "commander",
+    "word_count",
+    "file_operaions"
+  ],
+  "author": "navneetthakor ( Navneet kumar )",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "bin": {
+    "word_count": "./index.js"
+  }
+}
